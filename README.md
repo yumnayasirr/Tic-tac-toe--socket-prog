@@ -10,7 +10,7 @@ make utility (optional, for ease of building)
 
 Clone the repository:
 
-**git clone https://github.com/yourusername/tictactoe-multiplayer.git cd tictactoe-multiplayer**
+>git clone https://github.com/yourusername/tictactoe-multiplayer.git cd tictactoe-multiplayer
 
 Compile the server and client programs:
 
@@ -18,8 +18,8 @@ Compile the server and client programs:
 
 If you don't have make, you can compile manually:
 
-**g++ -o server server.cpp -lpthread
-g++ -o client client.cpp**
+>g++ -o server server.cpp -lpthread
+>g++ -o client client.cpp
 
 **Running the Game**
 
@@ -27,20 +27,20 @@ g++ -o client client.cpp**
 -Starting the Server
 To start the server, run the following command with a port number:
 
-**./server <port>**
+>./server <port>
 
 -For example:
 
-**./server 12345**
+>./server 12345
 
 -Connecting Clients
 To connect a client to the server, run the following command with the server hostname and port number:
 
-**./client <hostname> <port>**
+>./client <hostname> <port>
 
 For example:
 
-**./client localhost 12345**
+>./client localhost 12345
 
 **Code Overview**
 
